@@ -1,0 +1,84 @@
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8d770 && [1/2] Building C object CMakeFiles/cmTC_8d770.dir/OpenMPCheckVersion.c.o
+FAILED: CMakeFiles/cmTC_8d770.dir/OpenMPCheckVersion.c.o 
+/usr/bin/gcc   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8d770.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_8d770.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_8d770.dir/OpenMPCheckVersion.c.o -c '/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c'
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c1ed1 && [1/2] Building CXX object CMakeFiles/cmTC_c1ed1.dir/OpenMPCheckVersion.cpp.o
+FAILED: CMakeFiles/cmTC_c1ed1.dir/OpenMPCheckVersion.cpp.o 
+/usr/bin/g++   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c1ed1.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_c1ed1.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_c1ed1.dir/OpenMPCheckVersion.cpp.o -c '/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp'
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_46bea && [1/2] Building C object CMakeFiles/cmTC_46bea.dir/OpenMPCheckVersion.c.o
+FAILED: CMakeFiles/cmTC_46bea.dir/OpenMPCheckVersion.c.o 
+/usr/bin/gcc   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_46bea.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_46bea.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_46bea.dir/OpenMPCheckVersion.c.o -c '/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c'
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_69dac && [1/2] Building CXX object CMakeFiles/cmTC_69dac.dir/OpenMPCheckVersion.cpp.o
+FAILED: CMakeFiles/cmTC_69dac.dir/OpenMPCheckVersion.cpp.o 
+/usr/bin/g++   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_69dac.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_69dac.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_69dac.dir/OpenMPCheckVersion.cpp.o -c '/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp'
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1b6ad && [1/2] Building C object CMakeFiles/cmTC_1b6ad.dir/OpenMPCheckVersion.c.o
+FAILED: CMakeFiles/cmTC_1b6ad.dir/OpenMPCheckVersion.c.o 
+/usr/bin/gcc   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_1b6ad.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_1b6ad.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_1b6ad.dir/OpenMPCheckVersion.c.o -c '/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c'
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_16803 && [1/2] Building CXX object CMakeFiles/cmTC_16803.dir/OpenMPCheckVersion.cpp.o
+FAILED: CMakeFiles/cmTC_16803.dir/OpenMPCheckVersion.cpp.o 
+/usr/bin/g++   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_16803.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_16803.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_16803.dir/OpenMPCheckVersion.cpp.o -c '/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp'
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab2/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+

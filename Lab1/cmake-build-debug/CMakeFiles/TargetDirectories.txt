@@ -1,0 +1,3 @@
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab_1/cmake-build-debug/CMakeFiles/Lab_1.dir
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
