@@ -1,0 +1,2090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6C7D7BDC03D74E0CA9B7B46B /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A4E7C97F9584657B902616A /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				FB4B474C67234A239CA02403 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		7E8B86B6E70D4EDDB2BC64C4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D82287D4B0B4A68AE5A59CC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2581DBAAA74013341E26AF2D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		C9376FC523CB4185869EB75C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 513B52C278634140A02371B1 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				03AD2FFE2BE64262BF93ED1B /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		FB97612888E949DB8E355656 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0E57862B4A7D41359733E21A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EAFDFED6E17C240D0804D220 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				86DF59088C72401992FB3C5E /* PBXTargetDependency */,
+				5F9157829A144F2BA189934C /* PBXTargetDependency */,
+				896F89E8378A4C47A5850870 /* PBXTargetDependency */,
+				389CB7D9E0114C9D910877AC /* PBXTargetDependency */,
+				D2CCF5762DD74262A3C64694 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04A052E09EC04F55835EDBD4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Err.cpp */ = {isa = PBXBuildFile; fileRef = CB2053D2408B4846995C0860 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Err.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		070CFA10AFAF41DB88791626 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Sleep.hpp */ = {isa = PBXBuildFile; fileRef = BC4AF9ED31C74631BD33ED32 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Sleep.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		08284EE09AC44247B0A81640 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Thread.cpp */ = {isa = PBXBuildFile; fileRef = A1F3120F268A43E5AFEA5A56 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Thread.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		0882F4FEEDE54F58AE406C03 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpListener.hpp */ = {isa = PBXBuildFile; fileRef = 84CA4097D1384455A7CD290B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpListener.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		08E1FAC4A36642708AAC738A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/TCP.cpp */ = {isa = PBXBuildFile; fileRef = 222BC529A1614631A0418092 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/TCP.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		0ADC578102844E50BF1EA826 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/MemoryInputStream.hpp */ = {isa = PBXBuildFile; fileRef = B7800688186142D9A7442488 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/MemoryInputStream.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		0F23C076A00641CFA97E4053 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/InputStream.hpp */ = {isa = PBXBuildFile; fileRef = 62940366F63446BB99188FBD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/InputStream.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		100D3069E6DC46519DEF2BE9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Ftp.hpp */ = {isa = PBXBuildFile; fileRef = 4B8C16BA065D4D3B9E4B56C6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Ftp.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		111933718B414BD08A7082E7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Export.hpp */ = {isa = PBXBuildFile; fileRef = 990E038084564066BC09882A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Export.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		129BA80389B24D4F95EE4E20 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocal.hpp */ = {isa = PBXBuildFile; fileRef = 2DA564248EF947B481EC54F2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocal.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		130D841024AD40F1BC9A4518 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Mutex.cpp */ = {isa = PBXBuildFile; fileRef = 8EBD3C4E6CAD4681A6FA7845 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Mutex.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		15A994E471DB40E08FD2B780 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Lock.cpp */ = {isa = PBXBuildFile; fileRef = 7092E1F42EA0427E909B546F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Lock.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		16B9C799F87A4A30AC0F7003 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.cpp */ = {isa = PBXBuildFile; fileRef = E7E36BD3274B4884BEECDADD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		17D7C201C3714F78BD256E33 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketSelector.hpp */ = {isa = PBXBuildFile; fileRef = 6085CD325BD04EE9971500F8 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketSelector.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		18A1EA9713C24C49A0EFF33E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketImpl.hpp */ = {isa = PBXBuildFile; fileRef = 9AA40C34AEB74C59A79CCF27 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketImpl.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		22FC340107A649A58BED99CC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.hpp */ = {isa = PBXBuildFile; fileRef = 42BD478595774924B27B2334 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		2FEC6525C7C343678DCBA252 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Time.hpp */ = {isa = PBXBuildFile; fileRef = D295DA6A8C2A4FABB0D95323 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Time.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		3081AA8093C64C1D94B87930 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/IpAddress.cpp */ = {isa = PBXBuildFile; fileRef = 23A125751C994C7FB486DC66 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/IpAddress.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		31A231929FE64091850CD2C9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Clock.cpp */ = {isa = PBXBuildFile; fileRef = 581E03F3D74D445CB99CC5DC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Clock.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		33689B7B4A2B4F1E8CE3047D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/IpAddress.hpp */ = {isa = PBXBuildFile; fileRef = CAB038143717490CB9D594E3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/IpAddress.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		404EDF064B1846BA9F5A4C73 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/UdpSocket.hpp */ = {isa = PBXBuildFile; fileRef = 99AEB85F6A2F4C47B3D52ADB /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/UdpSocket.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		43FD7B12B29946F4AB3ABF66 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Socket.cpp */ = {isa = PBXBuildFile; fileRef = E8390F47E2824A52AB3906DF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Socket.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		44136A132BF643F7AF764DB9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.hpp */ = {isa = PBXBuildFile; fileRef = BE0BF2CFC91B4875AB7BFFC2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		47CE634E17324D1BBD33ABFD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Mutex.hpp */ = {isa = PBXBuildFile; fileRef = 08FD6BFA0B9F4338AD588FF9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Mutex.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		506B747B33BD4B9EA6ACE505 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.cpp */ = {isa = PBXBuildFile; fileRef = 363ADDC26F50433D8B928A64 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		574C99A223EC4EEE9159DAC7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpSocket.hpp */ = {isa = PBXBuildFile; fileRef = 392104CE18094E54A0B8305C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpSocket.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		57B89074DC354DECB6FAC9D9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Export.hpp */ = {isa = PBXBuildFile; fileRef = F9B4CB4D96C34F3CA67D6EA8 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Export.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		5CB2FC93A4594CBAAD4EE14C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Socket.hpp */ = {isa = PBXBuildFile; fileRef = 5528C8999A31492BAB8619A9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Socket.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		5F5B119544334960A8318D58 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/String.cpp */ = {isa = PBXBuildFile; fileRef = E6655D5F4701402A9C45A394 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/String.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		637319F3F0BC4359ADA311B2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Time.cpp */ = {isa = PBXBuildFile; fileRef = 23C6D3D5DFE445EFB0C235AC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Time.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		6379AF4674784C9FAC83A1B7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Ftp.cpp */ = {isa = PBXBuildFile; fileRef = AD2A3112BE824B4997D11B45 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Ftp.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		63916D91EBF541BEAC9C23D1 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Lock.hpp */ = {isa = PBXBuildFile; fileRef = 4C8DC6DC56DF42CF852762E5 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Lock.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		652674B5D3C44A5595AF0847 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Err.hpp */ = {isa = PBXBuildFile; fileRef = 2D47DCD3440E403D85E58799 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Err.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		66007DC6DCAA4BCF80A8A32A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.hpp */ = {isa = PBXBuildFile; fileRef = B67492793CF247AAB6273A65 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		6A38B87DD6A149B8AE768079 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Http.cpp */ = {isa = PBXBuildFile; fileRef = CF70C2C8B29548EEBAC4F57A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Http.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		6BCBFC6735504F5880E47B29 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.inl */ = {isa = PBXBuildFile; fileRef = 1FFB915F0DD947C98657C8EA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.inl */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		6D03969B20C7405EBE3BCADF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.hpp */ = {isa = PBXBuildFile; fileRef = 813F532F144348F6AE721B84 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		72B91C0F754748E781D8142B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Sleep.cpp */ = {isa = PBXBuildFile; fileRef = D8D7A6541B5B44C3B2A69455 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Sleep.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		732E56F597294DC596DC6256 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/UdpSocket.cpp */ = {isa = PBXBuildFile; fileRef = 609A66406BAC43AA84E5CCF9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/UdpSocket.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		75287D73BC2C43FC85460198 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.inl */ = {isa = PBXBuildFile; fileRef = 5157CCFC9DB6459EAD810081 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.inl */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		7862067F4561486AA68907C9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.hpp */ = {isa = PBXBuildFile; fileRef = 0A8CE1B827164D98A58756EF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		7A3DE375C6B04A0E88B35382 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpListener.cpp */ = {isa = PBXBuildFile; fileRef = E7C6C17D5A384E54A5830206 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpListener.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		7AB825623E804AA3A581867E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.cpp */ = {isa = PBXBuildFile; fileRef = 3A85BB771E104AC1993342F3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		827FD94BFFAA4AE69722E0D6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/MemoryInputStream.cpp */ = {isa = PBXBuildFile; fileRef = 2C4286365BB84F4CA6CC4494 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/MemoryInputStream.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		83EFD31826E84962A14E93B1 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/UDP.cpp */ = {isa = PBXBuildFile; fileRef = 849A1491B7D447948CF50966 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/UDP.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		865C5DA1E5544A7BB4837520 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3E6DD8CDD6984BBA8C819904 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/CMakeLists.txt */; };
+		96E57E6AA7B74B4AB5FB5CE4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpSocket.cpp */ = {isa = PBXBuildFile; fileRef = 4818EA9D8A064EA4AA78628C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpSocket.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		9728761111274AF0B2A24D4A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Packet.hpp */ = {isa = PBXBuildFile; fileRef = AA910A59CF854775B291A91B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Packet.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		98BCB87B60724464A89E55C7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/Ftp.cpp */ = {isa = PBXBuildFile; fileRef = AAE5D1A3D2F34EA89FFBC1AC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/Ftp.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		9A70517FEDDA4D0B9D5BB8C5 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/FileInputStream.cpp */ = {isa = PBXBuildFile; fileRef = 2D451411041044AC8F521B28 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/FileInputStream.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		9AC3266B111F41F69A60702E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.inl */ = {isa = PBXBuildFile; fileRef = 6548DEEC8D854449991C493A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.inl */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		9C10AC3DBE7C48009F58EC1F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Packet.cpp */ = {isa = PBXBuildFile; fileRef = 75A510DCEBF54EFCB63F7B1F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Packet.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		A342E12E3EF5456082FDAEC8 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.hpp */ = {isa = PBXBuildFile; fileRef = A02069805E524CDBABF8A01C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		A7BD612174DE4CCA8ECA22FE /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/ThreadLocal.cpp */ = {isa = PBXBuildFile; fileRef = F3ADD95436A94B7CB55E05D2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/ThreadLocal.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		AA12B9988BC84DBDB7B4E515 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketSelector.cpp */ = {isa = PBXBuildFile; fileRef = 7419B283ECE74B489FD58C92 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketSelector.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		B04A0C5731584ED188172AFB /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 21427A562EF34FE68F2D23EF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/CMakeLists.txt */; };
+		B210E2B7DCE7483B9A250669 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/Sockets.cpp */ = {isa = PBXBuildFile; fileRef = 6AC23DC4763249D983BFBA4B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/Sockets.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		B24A4BD198D842A4A85F77D5 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.hpp */ = {isa = PBXBuildFile; fileRef = E3DF388687544ABD8A19B4DA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		B3B07B7327BB4F82B0B6403E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.cpp */ = {isa = PBXBuildFile; fileRef = 564DB74D6B0F46A3BFB63FAD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		B605C4C4E0E1400EBD7C1270 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.inl */ = {isa = PBXBuildFile; fileRef = 0B126C103C8F430E9A671548 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.inl */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		BBB8B5C407304D828E0404D4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.cpp */ = {isa = PBXBuildFile; fileRef = 64426DF4DBD64705A618316E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		BDB721DD75C540949ECDF870 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.hpp */ = {isa = PBXBuildFile; fileRef = 9438A285E2054A63A97AA1C7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		C09002C352D741D19BC06E9D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NonCopyable.hpp */ = {isa = PBXBuildFile; fileRef = 46B495D100D340FDACB499F6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NonCopyable.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		CF73250A8D514BB18C817F6E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NativeActivity.hpp */ = {isa = PBXBuildFile; fileRef = 126C5EF7D35B4157A39F0C0E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NativeActivity.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		D2EC2CDB75E648578A1AD533 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 110B809073194827B9CD0B0F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/CMakeLists.txt */; };
+		D5AEE89AE85E4D388BC545DD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/FileInputStream.hpp */ = {isa = PBXBuildFile; fileRef = D09CEBB38835419D945636C4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/FileInputStream.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		D9985A392D0C40DFB7BBD9F1 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Clock.hpp */ = {isa = PBXBuildFile; fileRef = 520FA587E2B1413F901D15D1 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Clock.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		DE69C9714E1F4D8698C3DF3F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.hpp */ = {isa = PBXBuildFile; fileRef = B24FC011D6E64D7D8EFDF637 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		E13D7CC4A8134F459C8C0B0D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.inl */ = {isa = PBXBuildFile; fileRef = 93926791FF114B01AE747AA3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.inl */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		E6FB2A007EFD43D08785488E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5F9E2CABE0644A9FB7969991 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/CMakeLists.txt */; };
+		E93ADA26811C495082A96E50 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.cpp */ = {isa = PBXBuildFile; fileRef = 99BCDB68FABF4D588D117144 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.cpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		E93E9A5D13D94B6CB6F85DC0 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.hpp */ = {isa = PBXBuildFile; fileRef = 7B12301F4C8D4CA7853E107D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		EB1D49F7D7C747FA8D5E242F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketHandle.hpp */ = {isa = PBXBuildFile; fileRef = 52CD3EBE317E447DA86DA77B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketHandle.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		F4619A4AC0B447A2AE7D597F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Http.hpp */ = {isa = PBXBuildFile; fileRef = 83021F0543244FFAA7C558BD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Http.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		F9A5BC88388D449D9DCBDDFD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.hpp */ = {isa = PBXBuildFile; fileRef = 266B18E8EED347DC92ECE724 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		FC18CCA304934132A6F56172 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.inl */ = {isa = PBXBuildFile; fileRef = 8801F40E04CD4D75A7406D38 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.inl */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+		FC2402B29A814CD887A99956 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.hpp */ = {isa = PBXBuildFile; fileRef = E2D387B0327542E498DB4EEA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.hpp */; settings = {COMPILER_FLAGS = " -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1A8EC8F0F85B4C0D8BE5BF5F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		911D4C1D60924F28AE65E349 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A1C3BD4D2BA5471F9C51F662 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		CD3C68A1C28943BBAC902428 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		15E59B366E0A4BBC9DB787BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134D2AD6F11D4C4E976F58F3;
+			remoteInfo = "sfml-network";
+		};
+		177F9BC571BC4E2FAAB293BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134D2AD6F11D4C4E976F58F3;
+			remoteInfo = "sfml-network";
+		};
+		24FA59A531A94BEEB48EAFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77308FA8F309488E9026EA08;
+			remoteInfo = ftp;
+		};
+		269B6B2068C048A7AF00546A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8B86B6E70D4EDDB2BC64C4;
+			remoteInfo = ZERO_CHECK;
+		};
+		361B0EE2BD0B490C991E79EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8B86B6E70D4EDDB2BC64C4;
+			remoteInfo = ZERO_CHECK;
+		};
+		3BA7BFAD038F4ACEB14DD74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8B86B6E70D4EDDB2BC64C4;
+			remoteInfo = ZERO_CHECK;
+		};
+		644549592EEE47EFBDD5D1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95369A3A00E429B9E1BAC74;
+			remoteInfo = "sfml-system";
+		};
+		6A92034B30914708BA655F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134D2AD6F11D4C4E976F58F3;
+			remoteInfo = "sfml-network";
+		};
+		A70EF8D5D35C44F3A336F6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95369A3A00E429B9E1BAC74;
+			remoteInfo = "sfml-system";
+		};
+		BACCD7CF674A49D391B639BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95369A3A00E429B9E1BAC74;
+			remoteInfo = "sfml-system";
+		};
+		C1AC11DA9D5C4802B2CE1C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB97612888E949DB8E355656;
+			remoteInfo = ALL_BUILD;
+		};
+		CABBE342B30A43859EA70E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB97612888E949DB8E355656;
+			remoteInfo = ALL_BUILD;
+		};
+		D38FE5694214460BA60F5CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8B86B6E70D4EDDB2BC64C4;
+			remoteInfo = ZERO_CHECK;
+		};
+		D64D78353CCD48908ED4A8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B7D19C601F3414681050782;
+			remoteInfo = sockets;
+		};
+		E7A22C9414664DE794945787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95369A3A00E429B9E1BAC74;
+			remoteInfo = "sfml-system";
+		};
+		E81E07C74DCF4D78B64D704C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482F9C114A084F42B0734CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8B86B6E70D4EDDB2BC64C4;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FD6BFA0B9F4338AD588FF9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Mutex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Mutex.hpp; path = include/SFML/System/Mutex.hpp; sourceTree = SOURCE_ROOT; };
+		0A8CE1B827164D98A58756EF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Utf.hpp; path = include/SFML/System/Utf.hpp; sourceTree = SOURCE_ROOT; };
+		0B126C103C8F430E9A671548 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Utf.inl; path = include/SFML/System/Utf.inl; sourceTree = SOURCE_ROOT; };
+		110B809073194827B9CD0B0F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/SFML/Network/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		126C5EF7D35B4157A39F0C0E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NativeActivity.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NativeActivity.hpp; path = include/SFML/System/NativeActivity.hpp; sourceTree = SOURCE_ROOT; };
+		1FFB915F0DD947C98657C8EA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector3.inl; path = include/SFML/System/Vector3.inl; sourceTree = SOURCE_ROOT; };
+		21427A562EF34FE68F2D23EF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = examples/sockets/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		222BC529A1614631A0418092 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/TCP.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TCP.cpp; path = examples/sockets/TCP.cpp; sourceTree = SOURCE_ROOT; };
+		23A125751C994C7FB486DC66 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/IpAddress.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IpAddress.cpp; path = src/SFML/Network/IpAddress.cpp; sourceTree = SOURCE_ROOT; };
+		23C6D3D5DFE445EFB0C235AC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Time.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Time.cpp; path = src/SFML/System/Time.cpp; sourceTree = SOURCE_ROOT; };
+		266B18E8EED347DC92ECE724 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocalImpl.hpp; path = src/SFML/System/Unix/ThreadLocalImpl.hpp; sourceTree = SOURCE_ROOT; };
+		2C4286365BB84F4CA6CC4494 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/MemoryInputStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MemoryInputStream.cpp; path = src/SFML/System/MemoryInputStream.cpp; sourceTree = SOURCE_ROOT; };
+		2D451411041044AC8F521B28 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/FileInputStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileInputStream.cpp; path = src/SFML/System/FileInputStream.cpp; sourceTree = SOURCE_ROOT; };
+		2D47DCD3440E403D85E58799 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Err.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Err.hpp; path = include/SFML/System/Err.hpp; sourceTree = SOURCE_ROOT; };
+		2DA564248EF947B481EC54F2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocal.hpp; path = include/SFML/System/ThreadLocal.hpp; sourceTree = SOURCE_ROOT; };
+		363ADDC26F50433D8B928A64 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MutexImpl.cpp; path = src/SFML/System/Unix/MutexImpl.cpp; sourceTree = SOURCE_ROOT; };
+		392104CE18094E54A0B8305C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpSocket.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TcpSocket.hpp; path = include/SFML/Network/TcpSocket.hpp; sourceTree = SOURCE_ROOT; };
+		3A85BB771E104AC1993342F3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadLocalImpl.cpp; path = src/SFML/System/Unix/ThreadLocalImpl.cpp; sourceTree = SOURCE_ROOT; };
+		3E6DD8CDD6984BBA8C819904 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/SFML/System/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3FC54BA41E0A4EEFA7763BFB /* sfml-network */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libsfml-network-d.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BD478595774924B27B2334 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector2.hpp; path = include/SFML/System/Vector2.hpp; sourceTree = SOURCE_ROOT; };
+		46B495D100D340FDACB499F6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NonCopyable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NonCopyable.hpp; path = include/SFML/System/NonCopyable.hpp; sourceTree = SOURCE_ROOT; };
+		4818EA9D8A064EA4AA78628C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TcpSocket.cpp; path = src/SFML/Network/TcpSocket.cpp; sourceTree = SOURCE_ROOT; };
+		4B8C16BA065D4D3B9E4B56C6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Ftp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Ftp.hpp; path = include/SFML/Network/Ftp.hpp; sourceTree = SOURCE_ROOT; };
+		4C8DC6DC56DF42CF852762E5 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Lock.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Lock.hpp; path = include/SFML/System/Lock.hpp; sourceTree = SOURCE_ROOT; };
+		5157CCFC9DB6459EAD810081 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocalPtr.inl; path = include/SFML/System/ThreadLocalPtr.inl; sourceTree = SOURCE_ROOT; };
+		520FA587E2B1413F901D15D1 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Clock.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Clock.hpp; path = include/SFML/System/Clock.hpp; sourceTree = SOURCE_ROOT; };
+		52CD3EBE317E447DA86DA77B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketHandle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SocketHandle.hpp; path = include/SFML/Network/SocketHandle.hpp; sourceTree = SOURCE_ROOT; };
+		5528C8999A31492BAB8619A9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Socket.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Socket.hpp; path = include/SFML/Network/Socket.hpp; sourceTree = SOURCE_ROOT; };
+		564DB74D6B0F46A3BFB63FAD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadImpl.cpp; path = src/SFML/System/Unix/ThreadImpl.cpp; sourceTree = SOURCE_ROOT; };
+		581E03F3D74D445CB99CC5DC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Clock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Clock.cpp; path = src/SFML/System/Clock.cpp; sourceTree = SOURCE_ROOT; };
+		5F9E2CABE0644A9FB7969991 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = examples/ftp/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6085CD325BD04EE9971500F8 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketSelector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SocketSelector.hpp; path = include/SFML/Network/SocketSelector.hpp; sourceTree = SOURCE_ROOT; };
+		609A66406BAC43AA84E5CCF9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/UdpSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UdpSocket.cpp; path = src/SFML/Network/UdpSocket.cpp; sourceTree = SOURCE_ROOT; };
+		62940366F63446BB99188FBD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/InputStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InputStream.hpp; path = include/SFML/System/InputStream.hpp; sourceTree = SOURCE_ROOT; };
+		64426DF4DBD64705A618316E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ClockImpl.cpp; path = src/SFML/System/Unix/ClockImpl.cpp; sourceTree = SOURCE_ROOT; };
+		6548DEEC8D854449991C493A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = String.inl; path = include/SFML/System/String.inl; sourceTree = SOURCE_ROOT; };
+		6AC23DC4763249D983BFBA4B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/Sockets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sockets.cpp; path = examples/sockets/Sockets.cpp; sourceTree = SOURCE_ROOT; };
+		7092E1F42EA0427E909B546F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Lock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lock.cpp; path = src/SFML/System/Lock.cpp; sourceTree = SOURCE_ROOT; };
+		7419B283ECE74B489FD58C92 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketSelector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SocketSelector.cpp; path = src/SFML/Network/SocketSelector.cpp; sourceTree = SOURCE_ROOT; };
+		75A510DCEBF54EFCB63F7B1F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Packet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Packet.cpp; path = src/SFML/Network/Packet.cpp; sourceTree = SOURCE_ROOT; };
+		7B12301F4C8D4CA7853E107D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadImpl.hpp; path = src/SFML/System/Unix/ThreadImpl.hpp; sourceTree = SOURCE_ROOT; };
+		813F532F144348F6AE721B84 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ClockImpl.hpp; path = src/SFML/System/Unix/ClockImpl.hpp; sourceTree = SOURCE_ROOT; };
+		83021F0543244FFAA7C558BD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Http.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Http.hpp; path = include/SFML/Network/Http.hpp; sourceTree = SOURCE_ROOT; };
+		849A1491B7D447948CF50966 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/UDP.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UDP.cpp; path = examples/sockets/UDP.cpp; sourceTree = SOURCE_ROOT; };
+		84CA4097D1384455A7CD290B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpListener.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TcpListener.hpp; path = include/SFML/Network/TcpListener.hpp; sourceTree = SOURCE_ROOT; };
+		85A6D63CF9C746BABE319B58 /* sockets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "sockets-d"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8801F40E04CD4D75A7406D38 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector2.inl; path = include/SFML/System/Vector2.inl; sourceTree = SOURCE_ROOT; };
+		8EBD3C4E6CAD4681A6FA7845 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Mutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mutex.cpp; path = src/SFML/System/Mutex.cpp; sourceTree = SOURCE_ROOT; };
+		909AD36DCD6E44728C2B7741 /* ftp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "ftp-d"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93926791FF114B01AE747AA3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Thread.inl; path = include/SFML/System/Thread.inl; sourceTree = SOURCE_ROOT; };
+		9438A285E2054A63A97AA1C7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector3.hpp; path = include/SFML/System/Vector3.hpp; sourceTree = SOURCE_ROOT; };
+		990E038084564066BC09882A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Export.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Export.hpp; path = include/SFML/System/Export.hpp; sourceTree = SOURCE_ROOT; };
+		99AEB85F6A2F4C47B3D52ADB /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/UdpSocket.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UdpSocket.hpp; path = include/SFML/Network/UdpSocket.hpp; sourceTree = SOURCE_ROOT; };
+		99BCDB68FABF4D588D117144 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SleepImpl.cpp; path = src/SFML/System/Unix/SleepImpl.cpp; sourceTree = SOURCE_ROOT; };
+		9AA40C34AEB74C59A79CCF27 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SocketImpl.hpp; path = src/SFML/Network/SocketImpl.hpp; sourceTree = SOURCE_ROOT; };
+		A02069805E524CDBABF8A01C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Thread.hpp; path = include/SFML/System/Thread.hpp; sourceTree = SOURCE_ROOT; };
+		A1F3120F268A43E5AFEA5A56 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Thread.cpp; path = src/SFML/System/Thread.cpp; sourceTree = SOURCE_ROOT; };
+		AA910A59CF854775B291A91B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Packet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Packet.hpp; path = include/SFML/Network/Packet.hpp; sourceTree = SOURCE_ROOT; };
+		AAE5D1A3D2F34EA89FFBC1AC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/Ftp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ftp.cpp; path = examples/ftp/Ftp.cpp; sourceTree = SOURCE_ROOT; };
+		AD2A3112BE824B4997D11B45 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Ftp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ftp.cpp; path = src/SFML/Network/Ftp.cpp; sourceTree = SOURCE_ROOT; };
+		B24FC011D6E64D7D8EFDF637 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocalPtr.hpp; path = include/SFML/System/ThreadLocalPtr.hpp; sourceTree = SOURCE_ROOT; };
+		B67492793CF247AAB6273A65 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SleepImpl.hpp; path = src/SFML/System/Unix/SleepImpl.hpp; sourceTree = SOURCE_ROOT; };
+		B7800688186142D9A7442488 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/MemoryInputStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MemoryInputStream.hpp; path = include/SFML/System/MemoryInputStream.hpp; sourceTree = SOURCE_ROOT; };
+		BC4AF9ED31C74631BD33ED32 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Sleep.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Sleep.hpp; path = include/SFML/System/Sleep.hpp; sourceTree = SOURCE_ROOT; };
+		BE0BF2CFC91B4875AB7BFFC2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MutexImpl.hpp; path = src/SFML/System/Unix/MutexImpl.hpp; sourceTree = SOURCE_ROOT; };
+		CAB038143717490CB9D594E3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/IpAddress.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = IpAddress.hpp; path = include/SFML/Network/IpAddress.hpp; sourceTree = SOURCE_ROOT; };
+		CB2053D2408B4846995C0860 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Err.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Err.cpp; path = src/SFML/System/Err.cpp; sourceTree = SOURCE_ROOT; };
+		CF70C2C8B29548EEBAC4F57A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Http.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Http.cpp; path = src/SFML/Network/Http.cpp; sourceTree = SOURCE_ROOT; };
+		D09CEBB38835419D945636C4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/FileInputStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FileInputStream.hpp; path = include/SFML/System/FileInputStream.hpp; sourceTree = SOURCE_ROOT; };
+		D295DA6A8C2A4FABB0D95323 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Time.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Time.hpp; path = include/SFML/System/Time.hpp; sourceTree = SOURCE_ROOT; };
+		D8D7A6541B5B44C3B2A69455 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Sleep.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sleep.cpp; path = src/SFML/System/Sleep.cpp; sourceTree = SOURCE_ROOT; };
+		DA12C175DB1F47CF9B43F22D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E2D387B0327542E498DB4EEA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SocketImpl.hpp; path = src/SFML/Network/Unix/SocketImpl.hpp; sourceTree = SOURCE_ROOT; };
+		E3DF388687544ABD8A19B4DA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = String.hpp; path = include/SFML/System/String.hpp; sourceTree = SOURCE_ROOT; };
+		E6655D5F4701402A9C45A394 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/String.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = String.cpp; path = src/SFML/System/String.cpp; sourceTree = SOURCE_ROOT; };
+		E7C6C17D5A384E54A5830206 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpListener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TcpListener.cpp; path = src/SFML/Network/TcpListener.cpp; sourceTree = SOURCE_ROOT; };
+		E7E36BD3274B4884BEECDADD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SocketImpl.cpp; path = src/SFML/Network/Unix/SocketImpl.cpp; sourceTree = SOURCE_ROOT; };
+		E8390F47E2824A52AB3906DF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Socket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Socket.cpp; path = src/SFML/Network/Socket.cpp; sourceTree = SOURCE_ROOT; };
+		EE6B1EF0A0B64335A4E0576F /* sfml-system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libsfml-system-d.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3ADD95436A94B7CB55E05D2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/ThreadLocal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadLocal.cpp; path = src/SFML/System/ThreadLocal.cpp; sourceTree = SOURCE_ROOT; };
+		F9B4CB4D96C34F3CA67D6EA8 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Export.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Export.hpp; path = include/SFML/Network/Export.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4625DFFF714A4B0B854DEBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0CB987AAA847BAA50A673B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F14F262C754182A7E40473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3629BD1C40A457E8CE891F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1168137942E143C38E826B77 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2C472F4F84D04B10BF4571D3 /* SFML */ = {
+			isa = PBXGroup;
+			children = (
+				4827199683464A20B4648CB9 /* sfml-system */,
+				BC91A998190D49F4AB0AB3F9 /* sfml-network */,
+			);
+			name = SFML;
+			sourceTree = "<group>";
+		};
+		4827199683464A20B4648CB9 /* sfml-system */ = {
+			isa = PBXGroup;
+			children = (
+				7DAEE7AB2C9942D09D338E3D /* unix */,
+				520FA587E2B1413F901D15D1 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Clock.hpp */,
+				2D47DCD3440E403D85E58799 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Err.hpp */,
+				990E038084564066BC09882A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Export.hpp */,
+				D09CEBB38835419D945636C4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/FileInputStream.hpp */,
+				62940366F63446BB99188FBD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/InputStream.hpp */,
+				4C8DC6DC56DF42CF852762E5 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Lock.hpp */,
+				B7800688186142D9A7442488 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/MemoryInputStream.hpp */,
+				08FD6BFA0B9F4338AD588FF9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Mutex.hpp */,
+				126C5EF7D35B4157A39F0C0E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NativeActivity.hpp */,
+				46B495D100D340FDACB499F6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/NonCopyable.hpp */,
+				BC4AF9ED31C74631BD33ED32 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Sleep.hpp */,
+				E3DF388687544ABD8A19B4DA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.hpp */,
+				6548DEEC8D854449991C493A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/String.inl */,
+				A02069805E524CDBABF8A01C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.hpp */,
+				93926791FF114B01AE747AA3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Thread.inl */,
+				2DA564248EF947B481EC54F2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocal.hpp */,
+				B24FC011D6E64D7D8EFDF637 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.hpp */,
+				5157CCFC9DB6459EAD810081 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/ThreadLocalPtr.inl */,
+				D295DA6A8C2A4FABB0D95323 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Time.hpp */,
+				0A8CE1B827164D98A58756EF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.hpp */,
+				0B126C103C8F430E9A671548 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Utf.inl */,
+				42BD478595774924B27B2334 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.hpp */,
+				8801F40E04CD4D75A7406D38 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector2.inl */,
+				9438A285E2054A63A97AA1C7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.hpp */,
+				1FFB915F0DD947C98657C8EA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/System/Vector3.inl */,
+				3E6DD8CDD6984BBA8C819904 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/CMakeLists.txt */,
+				581E03F3D74D445CB99CC5DC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Clock.cpp */,
+				CB2053D2408B4846995C0860 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Err.cpp */,
+				2D451411041044AC8F521B28 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/FileInputStream.cpp */,
+				7092E1F42EA0427E909B546F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Lock.cpp */,
+				2C4286365BB84F4CA6CC4494 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/MemoryInputStream.cpp */,
+				8EBD3C4E6CAD4681A6FA7845 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Mutex.cpp */,
+				D8D7A6541B5B44C3B2A69455 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Sleep.cpp */,
+				E6655D5F4701402A9C45A394 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/String.cpp */,
+				A1F3120F268A43E5AFEA5A56 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Thread.cpp */,
+				F3ADD95436A94B7CB55E05D2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/ThreadLocal.cpp */,
+				23C6D3D5DFE445EFB0C235AC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Time.cpp */,
+			);
+			name = "sfml-system";
+			sourceTree = "<group>";
+		};
+		7924F9CCA110423886CA152C /* ftp */ = {
+			isa = PBXGroup;
+			children = (
+				5F9E2CABE0644A9FB7969991 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/CMakeLists.txt */,
+				AAE5D1A3D2F34EA89FFBC1AC /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/Ftp.cpp */,
+			);
+			name = ftp;
+			sourceTree = "<group>";
+		};
+		7B6B062F083045D4933DEF78 = {
+			isa = PBXGroup;
+			children = (
+				F71B57430F2C4F68B9BD8B7F /* ALL_BUILD */,
+				2C472F4F84D04B10BF4571D3 /* SFML */,
+				B387C315EFC347DBBE1193F9 /* Examples */,
+				D31C0CC570B44397A75C2111 /* Products */,
+				CD7C3FD36B914421819321E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DAEE7AB2C9942D09D338E3D /* unix */ = {
+			isa = PBXGroup;
+			children = (
+				64426DF4DBD64705A618316E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.cpp */,
+				813F532F144348F6AE721B84 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.hpp */,
+				363ADDC26F50433D8B928A64 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.cpp */,
+				BE0BF2CFC91B4875AB7BFFC2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.hpp */,
+				99BCDB68FABF4D588D117144 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.cpp */,
+				B67492793CF247AAB6273A65 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.hpp */,
+				564DB74D6B0F46A3BFB63FAD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.cpp */,
+				7B12301F4C8D4CA7853E107D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.hpp */,
+				3A85BB771E104AC1993342F3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.cpp */,
+				266B18E8EED347DC92ECE724 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.hpp */,
+			);
+			name = unix;
+			sourceTree = "<group>";
+		};
+		9A26F6C3E5364A989ADC12A2 /* sockets */ = {
+			isa = PBXGroup;
+			children = (
+				21427A562EF34FE68F2D23EF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/CMakeLists.txt */,
+				6AC23DC4763249D983BFBA4B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/Sockets.cpp */,
+				222BC529A1614631A0418092 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/TCP.cpp */,
+				849A1491B7D447948CF50966 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/UDP.cpp */,
+			);
+			name = sockets;
+			sourceTree = "<group>";
+		};
+		B387C315EFC347DBBE1193F9 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				7924F9CCA110423886CA152C /* ftp */,
+				9A26F6C3E5364A989ADC12A2 /* sockets */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		BC91A998190D49F4AB0AB3F9 /* sfml-network */ = {
+			isa = PBXGroup;
+			children = (
+				F9B4CB4D96C34F3CA67D6EA8 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Export.hpp */,
+				4B8C16BA065D4D3B9E4B56C6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Ftp.hpp */,
+				83021F0543244FFAA7C558BD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Http.hpp */,
+				CAB038143717490CB9D594E3 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/IpAddress.hpp */,
+				AA910A59CF854775B291A91B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Packet.hpp */,
+				5528C8999A31492BAB8619A9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/Socket.hpp */,
+				52CD3EBE317E447DA86DA77B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketHandle.hpp */,
+				6085CD325BD04EE9971500F8 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/SocketSelector.hpp */,
+				84CA4097D1384455A7CD290B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpListener.hpp */,
+				392104CE18094E54A0B8305C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/TcpSocket.hpp */,
+				99AEB85F6A2F4C47B3D52ADB /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include/SFML/Network/UdpSocket.hpp */,
+				110B809073194827B9CD0B0F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/CMakeLists.txt */,
+				AD2A3112BE824B4997D11B45 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Ftp.cpp */,
+				CF70C2C8B29548EEBAC4F57A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Http.cpp */,
+				23A125751C994C7FB486DC66 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/IpAddress.cpp */,
+				75A510DCEBF54EFCB63F7B1F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Packet.cpp */,
+				E8390F47E2824A52AB3906DF /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Socket.cpp */,
+				9AA40C34AEB74C59A79CCF27 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketImpl.hpp */,
+				7419B283ECE74B489FD58C92 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketSelector.cpp */,
+				E7C6C17D5A384E54A5830206 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpListener.cpp */,
+				4818EA9D8A064EA4AA78628C /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpSocket.cpp */,
+				609A66406BAC43AA84E5CCF9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/UdpSocket.cpp */,
+				E7E36BD3274B4884BEECDADD /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.cpp */,
+				E2D387B0327542E498DB4EEA /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.hpp */,
+			);
+			name = "sfml-network";
+			sourceTree = "<group>";
+		};
+		CD7C3FD36B914421819321E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31C0CC570B44397A75C2111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909AD36DCD6E44728C2B7741 /* ftp */,
+				3FC54BA41E0A4EEFA7763BFB /* sfml-network */,
+				EE6B1EF0A0B64335A4E0576F /* sfml-system */,
+				85A6D63CF9C746BABE319B58 /* sockets */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71B57430F2C4F68B9BD8B7F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1168137942E143C38E826B77 /* CMake Rules */,
+				DA12C175DB1F47CF9B43F22D /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134D2AD6F11D4C4E976F58F3 /* sfml-network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FC99E38525452A8A539F8A /* Build configuration list for PBXNativeTarget "sfml-network" */;
+			buildPhases = (
+				4BA520FBBF1F46E48E28AA1D /* Sources */,
+				71F14F262C754182A7E40473 /* Frameworks */,
+				76BA8DD7B74EC22A477FE05B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D94807CDB948C58AE8056C /* PBXTargetDependency */,
+				AC9DC0952DB3434DBB11FCD1 /* PBXTargetDependency */,
+			);
+			name = "sfml-network";
+			productName = "sfml-network";
+			productReference = 3FC54BA41E0A4EEFA7763BFB /* sfml-network */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6B7D19C601F3414681050782 /* sockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4CEDCEC409448194B91776 /* Build configuration list for PBXNativeTarget "sockets" */;
+			buildPhases = (
+				BC95E998C2FD47C6AD914355 /* Sources */,
+				4625DFFF714A4B0B854DEBB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE1E1E92B944907A9EF7208 /* PBXTargetDependency */,
+				C0003D7629AD417AABA04BE3 /* PBXTargetDependency */,
+				4174741570384FE8AE7C6D05 /* PBXTargetDependency */,
+			);
+			name = sockets;
+			productName = sockets;
+			productReference = 85A6D63CF9C746BABE319B58 /* sockets */;
+			productType = "com.apple.product-type.tool";
+		};
+		77308FA8F309488E9026EA08 /* ftp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F674A5FA23424EB3D4C604 /* Build configuration list for PBXNativeTarget "ftp" */;
+			buildPhases = (
+				478368EE15BF40F8B5048087 /* Sources */,
+				6A0CB987AAA847BAA50A673B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C2F12BD1E54F4E893530E5 /* PBXTargetDependency */,
+				08E980B9EDB1451EA402CEBB /* PBXTargetDependency */,
+				13AA720829DB47BCBA02212C /* PBXTargetDependency */,
+			);
+			name = ftp;
+			productName = ftp;
+			productReference = 909AD36DCD6E44728C2B7741 /* ftp */;
+			productType = "com.apple.product-type.tool";
+		};
+		B95369A3A00E429B9E1BAC74 /* sfml-system */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2208C779AC4260867A223C /* Build configuration list for PBXNativeTarget "sfml-system" */;
+			buildPhases = (
+				100B554310F74766AAF2B337 /* Sources */,
+				F3629BD1C40A457E8CE891F4 /* Frameworks */,
+				968BE1DCA7A9CE1F428C8323 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C42514CD504FE6B140E0ED /* PBXTargetDependency */,
+			);
+			name = "sfml-system";
+			productName = "sfml-system";
+			productReference = EE6B1EF0A0B64335A4E0576F /* sfml-system */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482F9C114A084F42B0734CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4CF331513056451985FB90D6 /* Build configuration list for PBXProject "SFML" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				911D4C1D60924F28AE65E349 /* Debug */,
+				1A8EC8F0F85B4C0D8BE5BF5F /* Release */,
+				CD3C68A1C28943BBAC902428 /* MinSizeRel */,
+				A1C3BD4D2BA5471F9C51F662 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7B6B062F083045D4933DEF78;
+			projectDirPath = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1";
+			projectRoot = "";
+			targets = (
+				FB97612888E949DB8E355656 /* ALL_BUILD */,
+				7E8B86B6E70D4EDDB2BC64C4 /* ZERO_CHECK */,
+				77308FA8F309488E9026EA08 /* ftp */,
+				C9376FC523CB4185869EB75C /* install */,
+				6C7D7BDC03D74E0CA9B7B46B /* package */,
+				134D2AD6F11D4C4E976F58F3 /* sfml-network */,
+				B95369A3A00E429B9E1BAC74 /* sfml-system */,
+				6B7D19C601F3414681050782 /* sockets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2581DBAAA74013341E26AF2D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  make -f /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  make -f /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  make -f /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  make -f /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		76BA8DD7B74EC22A477FE05B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/Network\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Debug/libsfml-network-d.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Debug/libsfml-network-d.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Debug/libsfml-network-d.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/Network\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Release/libsfml-network.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Release/libsfml-network.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Release/libsfml-network.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/Network\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-network.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-network.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-network.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/Network\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-network.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-network.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-network.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		968BE1DCA7A9CE1F428C8323 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/System\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Debug/libsfml-system-d.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Debug/libsfml-system-d.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Debug/libsfml-system-d.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/System\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Release/libsfml-system.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Release/libsfml-system.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/Release/libsfml-system.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/System\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-system.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-system.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-system.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/src/SFML/System\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-system.2.6.1.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-system.2.6.dylib /Users/gongkaiwen/Desktop/研究生/第一学期/ece\\ 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-system.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EAFDFED6E17C240D0804D220 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100B554310F74766AAF2B337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A231929FE64091850CD2C9 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Clock.cpp */,
+				04A052E09EC04F55835EDBD4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Err.cpp */,
+				9A70517FEDDA4D0B9D5BB8C5 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/FileInputStream.cpp */,
+				15A994E471DB40E08FD2B780 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Lock.cpp */,
+				827FD94BFFAA4AE69722E0D6 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/MemoryInputStream.cpp */,
+				130D841024AD40F1BC9A4518 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Mutex.cpp */,
+				72B91C0F754748E781D8142B /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Sleep.cpp */,
+				5F5B119544334960A8318D58 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/String.cpp */,
+				08284EE09AC44247B0A81640 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Thread.cpp */,
+				A7BD612174DE4CCA8ECA22FE /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/ThreadLocal.cpp */,
+				637319F3F0BC4359ADA311B2 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Time.cpp */,
+				BBB8B5C407304D828E0404D4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ClockImpl.cpp */,
+				506B747B33BD4B9EA6ACE505 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/MutexImpl.cpp */,
+				E93ADA26811C495082A96E50 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/SleepImpl.cpp */,
+				B3B07B7327BB4F82B0B6403E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadImpl.cpp */,
+				7AB825623E804AA3A581867E /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/System/Unix/ThreadLocalImpl.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478368EE15BF40F8B5048087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BCB87B60724464A89E55C7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/ftp/Ftp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA520FBBF1F46E48E28AA1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6379AF4674784C9FAC83A1B7 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Ftp.cpp */,
+				6A38B87DD6A149B8AE768079 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Http.cpp */,
+				3081AA8093C64C1D94B87930 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/IpAddress.cpp */,
+				9C10AC3DBE7C48009F58EC1F /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Packet.cpp */,
+				43FD7B12B29946F4AB3ABF66 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Socket.cpp */,
+				AA12B9988BC84DBDB7B4E515 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/SocketSelector.cpp */,
+				7A3DE375C6B04A0E88B35382 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpListener.cpp */,
+				96E57E6AA7B74B4AB5FB5CE4 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/TcpSocket.cpp */,
+				732E56F597294DC596DC6256 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/UdpSocket.cpp */,
+				16B9C799F87A4A30AC0F7003 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src/SFML/Network/Unix/SocketImpl.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC95E998C2FD47C6AD914355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B210E2B7DCE7483B9A250669 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/Sockets.cpp */,
+				08E1FAC4A36642708AAC738A /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/TCP.cpp */,
+				83EFD31826E84962A14E93B1 /* /Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/examples/sockets/UDP.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AD2FFE2BE64262BF93ED1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB97612888E949DB8E355656 /* ALL_BUILD */;
+			targetProxy = CABBE342B30A43859EA70E89 /* PBXContainerItemProxy */;
+		};
+		08E980B9EDB1451EA402CEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95369A3A00E429B9E1BAC74 /* sfml-system */;
+			targetProxy = BACCD7CF674A49D391B639BA /* PBXContainerItemProxy */;
+		};
+		13AA720829DB47BCBA02212C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 134D2AD6F11D4C4E976F58F3 /* sfml-network */;
+			targetProxy = 15E59B366E0A4BBC9DB787BC /* PBXContainerItemProxy */;
+		};
+		27D94807CDB948C58AE8056C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8B86B6E70D4EDDB2BC64C4 /* ZERO_CHECK */;
+			targetProxy = E81E07C74DCF4D78B64D704C /* PBXContainerItemProxy */;
+		};
+		389CB7D9E0114C9D910877AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 134D2AD6F11D4C4E976F58F3 /* sfml-network */;
+			targetProxy = 6A92034B30914708BA655F96 /* PBXContainerItemProxy */;
+		};
+		4174741570384FE8AE7C6D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 134D2AD6F11D4C4E976F58F3 /* sfml-network */;
+			targetProxy = 177F9BC571BC4E2FAAB293BF /* PBXContainerItemProxy */;
+		};
+		56C2F12BD1E54F4E893530E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8B86B6E70D4EDDB2BC64C4 /* ZERO_CHECK */;
+			targetProxy = 3BA7BFAD038F4ACEB14DD74E /* PBXContainerItemProxy */;
+		};
+		56C42514CD504FE6B140E0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8B86B6E70D4EDDB2BC64C4 /* ZERO_CHECK */;
+			targetProxy = D38FE5694214460BA60F5CC0 /* PBXContainerItemProxy */;
+		};
+		5F9157829A144F2BA189934C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B7D19C601F3414681050782 /* sockets */;
+			targetProxy = D64D78353CCD48908ED4A8FE /* PBXContainerItemProxy */;
+		};
+		86DF59088C72401992FB3C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8B86B6E70D4EDDB2BC64C4 /* ZERO_CHECK */;
+			targetProxy = 361B0EE2BD0B490C991E79EB /* PBXContainerItemProxy */;
+		};
+		896F89E8378A4C47A5850870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95369A3A00E429B9E1BAC74 /* sfml-system */;
+			targetProxy = A70EF8D5D35C44F3A336F6B8 /* PBXContainerItemProxy */;
+		};
+		8DE1E1E92B944907A9EF7208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8B86B6E70D4EDDB2BC64C4 /* ZERO_CHECK */;
+			targetProxy = 269B6B2068C048A7AF00546A /* PBXContainerItemProxy */;
+		};
+		AC9DC0952DB3434DBB11FCD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95369A3A00E429B9E1BAC74 /* sfml-system */;
+			targetProxy = E7A22C9414664DE794945787 /* PBXContainerItemProxy */;
+		};
+		C0003D7629AD417AABA04BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95369A3A00E429B9E1BAC74 /* sfml-system */;
+			targetProxy = 644549592EEE47EFBDD5D1AA /* PBXContainerItemProxy */;
+		};
+		D2CCF5762DD74262A3C64694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77308FA8F309488E9026EA08 /* ftp */;
+			targetProxy = 24FA59A531A94BEEB48EAFDB /* PBXContainerItemProxy */;
+		};
+		FB4B474C67234A239CA02403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB97612888E949DB8E355656 /* ALL_BUILD */;
+			targetProxy = C1AC11DA9D5C4802B2CE1C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02918EB9231B42C2ABD21537 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		084155723BC44EAE9F853EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_SYSTEM_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-system.2.6.dylib","-lpthread","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0AF992F841214218988181EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_NETWORK_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel\"","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-network.2.6.dylib","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-network.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-network.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		133CDFF92DB546C2B545A06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		14213020E3764248AED54C6E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build";
+			};
+			name = MinSizeRel;
+		};
+		166AB6639C4A461CAB95A48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/ftp/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug/libsfml-network-d.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug/libsfml-system-d.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ftp-d";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/ftp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1AB2BA2326C74EA78FE9B55C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		222A143FEED34A979CD2A52F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/ftp/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-network.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ftp;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/ftp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		234942A79136425D984C6249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		28746A70986443B9A876DA33 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2FA5459C351C44B18FBBC188 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3D48C6F579F845D2A6608C10 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/sockets/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-network.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sockets;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sockets.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E983B0C0D0F48A8A45A150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		403FB52AFB244B5D96065269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/sockets/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug/libsfml-network-d.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug/libsfml-system-d.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sockets-d";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sockets.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		42E8DC79F9EA4C51B4261BCE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_SYSTEM_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-system.2.6.dylib","-lpthread","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4A4D91EF0461447096C22FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4C28AA1B736F49FFA0D74970 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_NETWORK_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo\"","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-network.2.6.dylib","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-network.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-network.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D440E15253E4556AB2F2BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4F742433729F4D43800F0C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build";
+			};
+			name = Release;
+		};
+		709C0B65E6B747FF9FADC0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_SYSTEM_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-system-d.2.6.dylib","-lpthread","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system-d.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8960D50CF6814CE1A708F9CF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8DDC0D2FB01D46809AF9E51F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		95581F1FEE9846F4B4839845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_NETWORK_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release\"","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-network.2.6.dylib","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-network.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-network.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9E6EE6545240420BA024B9E7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A47232459D474F708CD4F3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B1D4EC4172DE43758BB8F82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/ftp/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release/libsfml-network.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ftp;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/ftp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B473D4D094D34EFA969A86E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build";
+			};
+			name = Debug;
+		};
+		BC391500D6DD424BA1A550A2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/ftp/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-network.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ftp;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/ftp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C15FA6E36BBF45F1BC50D88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C7CB7E10D1F74E20A93EFBFA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_SYSTEM_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-system.2.6.dylib","-lpthread","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CF6472B7925F48E8B86E0A19 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/sockets/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-network.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/MinSizeRel/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sockets;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sockets.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D8B986FB20B54F45A41E93CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 2.6.0;
+				DYLIB_CURRENT_VERSION = 2.6.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SFML_NETWORK_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/src\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug\"","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libsfml-network-d.2.6.dylib","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Debug/libsfml-system-d.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-network-d.2.6.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sfml-network.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E9BECF2BD8C348D3B38AAE2F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E9F9FCA2AABC44279931F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F38CA83110CF4F58B0B04C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/examples/sockets/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML-2.6.1/include\"","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release\"","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release/libsfml-network.2.6.1.dylib\"","\"/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/lib/Release/libsfml-system.2.6.1.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sockets;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/SFML/build/sockets.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F970E8167EC14EC6AFA393D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E57862B4A7D41359733E21A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15FA6E36BBF45F1BC50D88A /* Debug */,
+				133CDFF92DB546C2B545A06E /* Release */,
+				2FA5459C351C44B18FBBC188 /* MinSizeRel */,
+				02918EB9231B42C2ABD21537 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1A4E7C97F9584657B902616A /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47232459D474F708CD4F3FD /* Debug */,
+				4D440E15253E4556AB2F2BD7 /* Release */,
+				E9BECF2BD8C348D3B38AAE2F /* MinSizeRel */,
+				28746A70986443B9A876DA33 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		42FC99E38525452A8A539F8A /* Build configuration list for PBXNativeTarget "sfml-network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B986FB20B54F45A41E93CB /* Debug */,
+				95581F1FEE9846F4B4839845 /* Release */,
+				0AF992F841214218988181EF /* MinSizeRel */,
+				4C28AA1B736F49FFA0D74970 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4CF331513056451985FB90D6 /* Build configuration list for PBXProject "SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B473D4D094D34EFA969A86E9 /* Debug */,
+				4F742433729F4D43800F0C19 /* Release */,
+				14213020E3764248AED54C6E /* MinSizeRel */,
+				8960D50CF6814CE1A708F9CF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		513B52C278634140A02371B1 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E983B0C0D0F48A8A45A150E /* Debug */,
+				E9F9FCA2AABC44279931F3BD /* Release */,
+				1AB2BA2326C74EA78FE9B55C /* MinSizeRel */,
+				9E6EE6545240420BA024B9E7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62F674A5FA23424EB3D4C604 /* Build configuration list for PBXNativeTarget "ftp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166AB6639C4A461CAB95A48E /* Debug */,
+				B1D4EC4172DE43758BB8F82B /* Release */,
+				222A143FEED34A979CD2A52F /* MinSizeRel */,
+				BC391500D6DD424BA1A550A2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D82287D4B0B4A68AE5A59CC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234942A79136425D984C6249 /* Debug */,
+				4A4D91EF0461447096C22FAB /* Release */,
+				F970E8167EC14EC6AFA393D0 /* MinSizeRel */,
+				8DDC0D2FB01D46809AF9E51F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA4CEDCEC409448194B91776 /* Build configuration list for PBXNativeTarget "sockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403FB52AFB244B5D96065269 /* Debug */,
+				F38CA83110CF4F58B0B04C6B /* Release */,
+				CF6472B7925F48E8B86E0A19 /* MinSizeRel */,
+				3D48C6F579F845D2A6608C10 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FF2208C779AC4260867A223C /* Build configuration list for PBXNativeTarget "sfml-system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709C0B65E6B747FF9FADC0CA /* Debug */,
+				084155723BC44EAE9F853EED /* Release */,
+				42E8DC79F9EA4C51B4261BCE /* MinSizeRel */,
+				C7CB7E10D1F74E20A93EFBFA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 482F9C114A084F42B0734CAE /* Project object */;
+}

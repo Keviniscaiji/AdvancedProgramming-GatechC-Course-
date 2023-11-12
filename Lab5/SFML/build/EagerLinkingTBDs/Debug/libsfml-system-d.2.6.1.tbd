@@ -1,0 +1,186 @@
+{
+  "main_library": {
+    "compatibility_versions": [
+      {
+        "version": "2.6"
+      }
+    ],
+    "current_versions": [
+      {
+        "version": "2.6.1"
+      }
+    ],
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "__ZN2sf4Time4ZeroE",
+            "__ZTIN2sf15FileInputStreamE",
+            "__ZTIN2sf17MemoryInputStreamE",
+            "__ZN2sf6String10InvalidPosE",
+            "__ZTVN2sf17MemoryInputStreamE",
+            "__ZTSN2sf17MemoryInputStreamE",
+            "__ZTSN2sf15FileInputStreamE",
+            "__ZTVN2sf15FileInputStreamE"
+          ]
+        },
+        "text": {
+          "global": [
+            "__ZN2sf6String3endEv",
+            "__ZN2sfneENS_4TimeES0_",
+            "__ZN2sfrmENS_4TimeES0_",
+            "__ZN2sfplERKNS_6StringES2_",
+            "__ZN2sf6ThreadD2Ev",
+            "__ZN2sfrMERNS_4TimeES0_",
+            "__ZN2sfneERKNS_6StringES2_",
+            "__ZN2sf6StringC2ERKS0_",
+            "__ZNK2sf6String12toAnsiStringERKNSt3__16localeE",
+            "__ZN2sf3errEv",
+            "__ZN2sf15FileInputStreamD1Ev",
+            "__ZN2sfmLERNS_4TimeEx",
+            "__ZN2sf4LockC1ERNS_5MutexE",
+            "__ZN2sf12millisecondsEi",
+            "__ZN2sf4TimeC1Ex",
+            "__ZN2sf6Thread4waitEv",
+            "__ZN2sfmLERNS_4TimeEf",
+            "__ZN2sf6StringC1Ew",
+            "__ZN2sfdVERNS_4TimeEf",
+            "__ZN2sfgtENS_4TimeES0_",
+            "__ZN2sf17MemoryInputStreamC2Ev",
+            "__ZN2sfdvENS_4TimeEx",
+            "__ZN2sf4TimeC2Ex",
+            "__ZN2sfmlEfNS_4TimeE",
+            "__ZN2sf5ClockC1Ev",
+            "__ZN2sf5MutexD1Ev",
+            "__ZN2sfgeERKNS_6StringES2_",
+            "__ZN2sfleERKNS_6StringES2_",
+            "__ZN2sf6StringC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6localeE",
+            "__ZN2sf15FileInputStreamD0Ev",
+            "__ZNK2sf4Time9asSecondsEv",
+            "__ZN2sf5sleepENS_4TimeE",
+            "__ZN2sf11ThreadLocal8setValueEPv",
+            "__ZN2sfltENS_4TimeES0_",
+            "__ZN2sf6StringC1EPKw",
+            "__ZN2sf6StringC2Ev",
+            "__ZN2sf5Clock7restartEv",
+            "__ZN2sfmiENS_4TimeES0_",
+            "__ZN2sf15FileInputStream4openERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE",
+            "__ZN2sf5Mutex4lockEv",
+            "__ZN2sf6ThreadD1Ev",
+            "__ZN2sf6Thread6launchEv",
+            "__ZNK2sf6String6toUtf8Ev",
+            "__ZN2sf4TimeC2Ev",
+            "__ZN2sf6StringixEm",
+            "__ZN2sf17MemoryInputStream4seekEx",
+            "__ZN2sf6StringC1ERKS0_",
+            "__ZN2sfplENS_4TimeES0_",
+            "__ZNK2sf4Time14asMillisecondsEv",
+            "__ZN2sf17MemoryInputStream4readEPvx",
+            "__ZN2sf6StringaSERKS0_",
+            "__ZN2sf6StringC2EPKj",
+            "__ZN2sfeqERKNS_6StringES2_",
+            "__ZN2sfmlExNS_4TimeE",
+            "__ZN2sf11ThreadLocalD2Ev",
+            "__ZN2sf5ClockC2Ev",
+            "__ZN2sf5MutexC2Ev",
+            "__ZN2sf6String7replaceERKS0_S2_",
+            "__ZN2sf6Thread9terminateEv",
+            "__ZN2sf6StringC1Ej",
+            "__ZNK2sf6String5beginEv",
+            "__ZN2sf6StringC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6localeE",
+            "__ZN2sf15FileInputStream7getSizeEv",
+            "__ZN2sf6String5eraseEmm",
+            "__ZN2sf6String6insertEmRKS0_",
+            "__ZN2sf15FileInputStream4tellEv",
+            "__ZN2sf6StringC1EcRKNSt3__16localeE",
+            "__ZN2sf11ThreadLocalC2EPv",
+            "__ZNK2sf6String9substringEmm",
+            "__ZN2sf15FileInputStreamC1Ev",
+            "__ZN2sfleENS_4TimeES0_",
+            "__ZN2sfngENS_4TimeE",
+            "__ZN2sf6StringC1EPKcRKNSt3__16localeE",
+            "__ZN2sf6StringC2ERKNSt3__112basic_stringIwNS1_11char_traitsIwEENS1_9allocatorIwEEEE",
+            "__ZN2sfmIERNS_4TimeES0_",
+            "__ZN2sf6StringC2ERKNSt3__112basic_stringIjNS1_11char_traitsIjEENS1_9allocatorIjEEEE",
+            "__ZNK2sf6StringcvNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEv",
+            "__ZN2sf6Thread3runEv",
+            "__ZN2sfmlENS_4TimeEf",
+            "__ZN2sf15FileInputStreamC2Ev",
+            "__ZN2sfdVERNS_4TimeEx",
+            "__ZN2sfdvENS_4TimeEf",
+            "__ZN2sf11ThreadLocalD1Ev",
+            "__ZN2sf5MutexC1Ev",
+            "__ZNK2sf6String7getSizeEv",
+            "__ZN2sf6StringpLERKS0_",
+            "__ZNK2sf6StringcvNSt3__112basic_stringIwNS1_11char_traitsIwEENS1_9allocatorIwEEEEEv",
+            "__ZN2sf6StringC2Ej",
+            "__ZNK2sf6String7isEmptyEv",
+            "__ZN2sfdvENS_4TimeES0_",
+            "__ZN2sf11ThreadLocalC1EPv",
+            "__ZN2sf4LockD1Ev",
+            "__ZN2sf15FileInputStreamD2Ev",
+            "__ZN2sf6String5beginEv",
+            "__ZN2sf4LockD2Ev",
+            "__ZN2sfeqENS_4TimeES0_",
+            "__ZN2sf15FileInputStream4readEPvx",
+            "__ZNK2sf6String7toUtf16Ev",
+            "__ZN2sf6StringC1Ev",
+            "__ZN2sf5MutexD2Ev",
+            "__ZN2sf4TimeC1Ev",
+            "__ZN2sf6StringC2EPKw",
+            "__ZNK2sf6String12toWideStringEv",
+            "__ZN2sfgtERKNS_6StringES2_",
+            "__ZN2sf17MemoryInputStream7getSizeEv",
+            "__ZN2sf17MemoryInputStream4openEPKvm",
+            "__ZN2sf17MemoryInputStreamC1Ev",
+            "__ZNK2sf6StringixEm",
+            "__ZN2sf6StringC2EcRKNSt3__16localeE",
+            "__ZN2sf6String7replaceEmmRKS0_",
+            "__ZN2sfltERKNS_6StringES2_",
+            "__ZNK2sf5Clock14getElapsedTimeEv",
+            "__ZN2sf4LockC2ERNS_5MutexE",
+            "__ZN2sf6String5clearEv",
+            "__ZN2sf12microsecondsEx",
+            "__ZN2sf15FileInputStream4seekEx",
+            "__ZNK2sf6String4findERKS0_m",
+            "__ZN2sf7secondsEf",
+            "__ZN2sf6StringC1EPKj",
+            "__ZN2sf5Mutex6unlockEv",
+            "__ZNK2sf6String3endEv",
+            "__ZN2sf6StringC2EPKcRKNSt3__16localeE",
+            "__ZNK2sf6String7toUtf32Ev",
+            "__ZNK2sf4Time14asMicrosecondsEv",
+            "__ZNK2sf11ThreadLocal8getValueEv",
+            "__ZNK2sf6String7getDataEv",
+            "__ZN2sf6StringC2Ew",
+            "__ZN2sfgeENS_4TimeES0_",
+            "__ZN2sf6StringC1ERKNSt3__112basic_stringIjNS1_11char_traitsIjEENS1_9allocatorIjEEEE",
+            "__ZN2sf6StringC1ERKNSt3__112basic_stringIwNS1_11char_traitsIwEENS1_9allocatorIwEEEE",
+            "__ZN2sfmlENS_4TimeEx",
+            "__ZN2sf17MemoryInputStream4tellEv",
+            "__ZN2sfpLERNS_4TimeES0_"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/libsfml-system-d.2.6.dylib"
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "14",
+        "target": "arm64-macos"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

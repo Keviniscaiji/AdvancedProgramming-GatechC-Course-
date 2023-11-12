@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule"
+		},
+		{
+			"file" : "/Users/gongkaiwen/Desktop/\u7814\u7a76\u751f/\u7b2c\u4e00\u5b66\u671f/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

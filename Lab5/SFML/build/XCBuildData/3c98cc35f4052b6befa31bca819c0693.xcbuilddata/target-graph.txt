@@ -1,0 +1,11 @@
+Target dependency graph (4 targets)
+Target 'sockets' in project 'SFML'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'SFML'
+➜ Explicit dependency on target 'sfml-system' in project 'SFML'
+➜ Explicit dependency on target 'sfml-network' in project 'SFML'
+Target 'sfml-network' in project 'SFML'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'SFML'
+➜ Explicit dependency on target 'sfml-system' in project 'SFML'
+Target 'sfml-system' in project 'SFML'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'SFML'
+Target 'ZERO_CHECK' in project 'SFML' (no dependencies)

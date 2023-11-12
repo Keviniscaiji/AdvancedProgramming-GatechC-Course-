@@ -1,0 +1,3 @@
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

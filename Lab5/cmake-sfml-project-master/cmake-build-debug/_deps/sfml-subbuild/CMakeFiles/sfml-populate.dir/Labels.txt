@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+/Users/gongkaiwen/Desktop/研究生/第一学期/ece 6122/lab/Lab5/cmake-sfml-project-master/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule
